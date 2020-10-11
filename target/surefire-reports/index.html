@@ -101,7 +101,7 @@
                     <div class="method-list-content passed suite-Functional_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Functional_Suite" title="PlayAround.HollywoodBet.testing.AppTest" class="method navigator-link" hash-for-method="test([{Away=Liverpool, Home=Liverpool}])">test([{Away=Liverpool, Home=Liverpool}])</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Functional_Suite" title="PlayAround.HollywoodBet.testing.AppTest" class="method navigator-link" hash-for-method="testTrial([{Away=Liverpool, Home=Liverpool}])">testTrial([{Away=Liverpool, Home=Liverpool}])</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Functional_Suite -->
@@ -124,9 +124,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test([{Away=Liverpool, Home=Liverpool}])">
-                  </a> <!-- test([{Away=Liverpool, Home=Liverpool}]) -->
-                  <span class="method-name">test</span>
+                  <a name="testTrial([{Away=Liverpool, Home=Liverpool}])">
+                  </a> <!-- testTrial([{Away=Liverpool, Home=Liverpool}]) -->
+                  <span class="method-name">testTrial</span>
                   <span class="parameters">([{Away=Liverpool, Home=Liverpool}])</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -186,14 +186,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test')
+data.setCell(0, 1, 'testTrial')
 data.setCell(0, 2, 'PlayAround.HollywoodBet.testing.AppTest')
-data.setCell(0, 3, 1);
+data.setCell(0, 3, 2);
 window.suiteTableData['Functional_Suite']= { tableData: data, tableDiv: 'times-div-Functional_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 ms</span>
+              <span class="suite-total-time">Total running time: 2 ms</span>
               <div id="times-div-Functional_Suite">
               </div> <!-- times-div-Functional_Suite -->
             </div> <!-- times-div -->
@@ -225,20 +225,20 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">testSetup</span>
-                <span class="method-start">44 ms</span>
+                <span class="method-name">testSetup(public void PlayAround.HollywoodBet.testing.AppTest.testTrial(java.util.List))</span>
+                <span class="method-start">300 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test([{Away=Liverpool, Home=Liverpool}])</span>
-                <span class="method-start">45 ms</span>
+                <span class="method-name">testTrial([{Away=Liverpool, Home=Liverpool}])</span>
+                <span class="method-start">312 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testTearDown</span>
-                <span class="method-start">47 ms</span>
+                <span class="method-start">315 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">85 ms</span>
+                <span class="method-start">368 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

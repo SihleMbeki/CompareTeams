@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.324" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.279" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\sihle\eclipse-workspace\HollywoodBet\target\test-classes;C:\Users\sihle\eclipse-workspace\HollywoodBet\target\classes;C:\Users\sihle\.m2\repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;C:\Users\sihle\.m2\repository\com\tvd12\test-util\1.0.5\test-util-1.0.5.jar;C:\Users\sihle\.m2\repository\org\mockito\mockito-all\1.10.19\mockito-all-1.10.19.jar;C:\Users\sihle\.m2\repository\org\testng\testng\6.8.21\testng-6.8.21.jar;C:\Users\sihle\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sihle\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;"/>
+    <property name="java.class.path" value="C:\Users\sihle\eclipse-workspace\HollywoodBet\target\test-classes;C:\Users\sihle\eclipse-workspace\HollywoodBet\target\classes;C:\Users\sihle\.m2\repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;C:\Users\sihle\.m2\repository\com\tvd12\test-util\1.0.5\test-util-1.0.5.jar;C:\Users\sihle\.m2\repository\org\mockito\mockito-all\1.10.19\mockito-all-1.10.19.jar;C:\Users\sihle\.m2\repository\org\testng\testng\6.8.21\testng-6.8.21.jar;C:\Users\sihle\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sihle\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\sihle\.m2\repository\com\aventstack\extentreports\3.0.2\extentreports-3.0.2.jar;C:\Users\sihle\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\sihle\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\sihle\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\sihle\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\sihle\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\sihle\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\sihle\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sihle\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\sihle\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\sihle\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin"/>
-    <property name="sun.java.command" value="C:\Users\sihle\AppData\Local\Temp\surefire12281522009739157758\surefirebooter8647712065105304642.jar C:\Users\sihle\AppData\Local\Temp\surefire12281522009739157758 2020-10-11T21-53-29_743-jvmRun1 surefire8838267247995884616tmp surefire_015736883565494267188tmp"/>
+    <property name="sun.java.command" value="C:\Users\sihle\AppData\Local\Temp\surefire3065816843594283631\surefirebooter16602052009125154254.jar C:\Users\sihle\AppData\Local\Temp\surefire3065816843594283631 2020-10-11T22-57-53_917-jvmRun1 surefire12146150890588166517tmp surefire_08628306844160482711tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\sihle\eclipse-workspace\HollywoodBet\target\test-classes;C:\Users\sihle\eclipse-workspace\HollywoodBet\target\classes;C:\Users\sihle\.m2\repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;C:\Users\sihle\.m2\repository\com\tvd12\test-util\1.0.5\test-util-1.0.5.jar;C:\Users\sihle\.m2\repository\org\mockito\mockito-all\1.10.19\mockito-all-1.10.19.jar;C:\Users\sihle\.m2\repository\org\testng\testng\6.8.21\testng-6.8.21.jar;C:\Users\sihle\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sihle\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\sihle\eclipse-workspace\HollywoodBet\target\test-classes;C:\Users\sihle\eclipse-workspace\HollywoodBet\target\classes;C:\Users\sihle\.m2\repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;C:\Users\sihle\.m2\repository\com\tvd12\test-util\1.0.5\test-util-1.0.5.jar;C:\Users\sihle\.m2\repository\org\mockito\mockito-all\1.10.19\mockito-all-1.10.19.jar;C:\Users\sihle\.m2\repository\org\testng\testng\6.8.21\testng-6.8.21.jar;C:\Users\sihle\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sihle\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\sihle\.m2\repository\com\aventstack\extentreports\3.0.2\extentreports-3.0.2.jar;C:\Users\sihle\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\sihle\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\sihle\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\sihle\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\sihle\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\sihle\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\sihle\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sihle\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\sihle\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\sihle\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\sihle"/>
     <property name="user.language" value="en"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\sihle\AppData\Local\Temp\surefire12281522009739157758\surefirebooter8647712065105304642.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sihle\AppData\Local\Temp\surefire3065816843594283631\surefirebooter16602052009125154254.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.8+10-LTS"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="test" classname="PlayAround.HollywoodBet.testing.AppTest" time="0.001"/>
+  <testcase name="testTrial" classname="PlayAround.HollywoodBet.testing.AppTest" time="0.002"/>
 </testsuite>
