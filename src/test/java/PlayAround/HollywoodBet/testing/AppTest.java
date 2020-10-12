@@ -14,7 +14,6 @@ import Utilities.ExtentReport;
 
 public class AppTest extends Base {
 	
-
 	@BeforeMethod
 	public void testSetup(Method test) {
 		System.out.println("Test setup");
@@ -25,7 +24,8 @@ public class AppTest extends Base {
 	public void testTrial(List<Hashtable> items) {
 		System.out.println("Home:" + items.get(0).get("Home").toString());
 		System.out.println("directory"+directory);
-		
+		System.out.println("folder"+foldername);
+		driver.goToURL("https://www.google.com/");
 	}
 
 	@AfterMethod
