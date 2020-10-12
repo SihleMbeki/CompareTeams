@@ -38,15 +38,15 @@ public class ExtentReport {
 	public static String foldername() {
 		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		Date date = new Date();
-		String foldername = Base.directory + "\\Report\\"
+		Base.foldername = Base.directory + "\\Report\\"
 				+ format.format(date).toString().replace(":", "_").replace(" ", "").replace("-", "_");
 		try {
-			File file = new File(foldername);
+			File file = new File(Base.foldername );
 			file.mkdir();
 		} catch (Exception e) {
 			System.out.println(e.getStackTrace());
 		}
-		return foldername;
+		return Base.foldername ;
 	}
 
 	public static String getFileName() {
