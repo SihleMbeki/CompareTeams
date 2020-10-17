@@ -13,11 +13,13 @@ public class PremierLeague {
 	public WebElement table;
 	
 	public String findRank(String team) {
-		return "//a[text()='Wolves']//ancestor::tr/th";
+		return "//a[text()='"+team+"']//ancestor::tr/th";
 	}
 	
 	public String glDeff(String team) {
-		return "//a[text()='Wolves']//ancestor::tr//td[@data-stat='goal_diff']";
+		return "//a[text()='"+team+"']//ancestor::tr//td[@data-stat='goal_diff']";
 	}
+	
+	
 	
 }
