@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
 
+import Pages.League;
 import Pages.TableStats;
 import Utilities.ExtentReport;
 
@@ -25,15 +26,13 @@ public class AppTest extends Base {
 
 	@Test(dataProvider = "getTeams")
 	public void testTrial(List<Hashtable> items) {
-		//System.out.println("Home:" + items.get(0).get("Home").toString());
-		//System.out.println("directory"+directory);
-		//System.out.println("folder"+foldername);
+		
+		League league=new League(driver,test);
 		driver.goToURL("https://fbref.com/en/");
-		TableStats stats=new TableStats(driver,test);
 		test.log(Status.PASS, "Home - "+items.get(0).get("Home").toString());
-		stats.printGoalDff(items.get(0).get("Home").toString());
-		test.log(Status.PASS, "Home - "+items.get(0).get("Away").toString());
-		stats.printGoalDff(items.get(0).get("Away").toString());
+		league.selectLeague("England: Premier League (m)").printGoalDff(items.get(0).get("Home").toString());
+		test.log(Status.PASS, "Away - "+items.get(0).get("Away").toString());
+		league.selectLeague("England: Premier League (m)").printGoalDff(items.get(0).get("Away").toString());
 	}
 
 	@AfterMethod
