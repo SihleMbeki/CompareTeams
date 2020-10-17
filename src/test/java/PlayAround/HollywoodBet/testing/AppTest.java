@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import Pages.TableStats;
 import Utilities.ExtentReport;
 
 public class AppTest extends Base {
@@ -25,7 +26,9 @@ public class AppTest extends Base {
 		System.out.println("Home:" + items.get(0).get("Home").toString());
 		System.out.println("directory"+directory);
 		System.out.println("folder"+foldername);
-		driver.goToURL("https://www.google.com/");
+		driver.goToURL("https://fbref.com/en/");
+		TableStats stats=new TableStats(driver);
+		stats.printGoalDff();
 	}
 
 	@AfterMethod

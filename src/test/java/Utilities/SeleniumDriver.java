@@ -29,7 +29,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SeleniumDriver {
 	WebDriver driver;
-	String error = null;
+	public static String error = null;
 
 	public SeleniumDriver() {
 		WebDriverManager.chromedriver().setup();
@@ -126,9 +126,9 @@ public class SeleniumDriver {
 		}
 	}
 
-	public boolean scrollToElement(String xpath) {
+	public boolean scrollToElement(WebElement element) {
 		try {
-			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'Center'});", xpath);
+			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();",element);
 			return true;
 		} catch (Exception e) {
 			error = e.getMessage();
