@@ -2,16 +2,16 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-17T18:20:51Z" name="Functional Suite" finished-at="2020-10-17T18:21:01Z" duration-ms="9124">
+  <suite started-at="2020-10-17T19:20:10Z" name="Functional Suite" finished-at="2020-10-17T19:20:26Z" duration-ms="16790">
     <groups>
     </groups>
-    <test started-at="2020-10-17T18:20:51Z" name="Login Test" finished-at="2020-10-17T18:21:01Z" duration-ms="9124">
+    <test started-at="2020-10-17T19:20:10Z" name="Login Test" finished-at="2020-10-17T19:20:26Z" duration-ms="16790">
       <class name="PlayAround.HollywoodBet.testing.AppTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@5b051a5c]" started-at="2020-10-17T20:20:45Z" name="setup" finished-at="2020-10-17T20:20:51Z" duration-ms="6734" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@5b051a5c]" started-at="2020-10-17T21:20:04Z" name="setup" finished-at="2020-10-17T21:20:10Z" duration-ms="5899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@5b051a5c]" started-at="2020-10-17T20:20:51Z" name="testSetup" finished-at="2020-10-17T20:20:51Z" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@5b051a5c]" started-at="2020-10-17T21:20:10Z" name="testSetup" finished-at="2020-10-17T21:20:10Z" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,22 +22,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method signature="testTrial(java.util.List)[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@5b051a5c]" started-at="2020-10-17T20:20:51Z" name="testTrial" data-provider="getTeams" finished-at="2020-10-17T20:21:01Z" duration-ms="9070" status="PASS">
+        <test-method signature="testTrial(java.util.List)[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@5b051a5c]" started-at="2020-10-17T21:20:10Z" name="testTrial" data-provider="getTeams" finished-at="2020-10-17T21:20:26Z" duration-ms="16756" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[{Away=Liverpool, Home=Liverpool}]]]>
+                <![CDATA[[{Away=Wolves, Home=Liverpool}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTrial -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@5b051a5c]" started-at="2020-10-17T20:21:01Z" name="testTearDown" finished-at="2020-10-17T20:21:01Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@5b051a5c]" started-at="2020-10-17T21:20:26Z" name="testTearDown" finished-at="2020-10-17T21:20:26Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTearDown -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@5b051a5c]" started-at="2020-10-17T20:21:01Z" name="teardown" finished-at="2020-10-17T20:21:01Z" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@5b051a5c]" started-at="2020-10-17T21:20:27Z" name="teardown" finished-at="2020-10-17T21:20:27Z" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
