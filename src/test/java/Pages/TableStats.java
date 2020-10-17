@@ -3,6 +3,7 @@ package Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 import PageObject.PremierLeague;
 import Utilities.SeleniumDriver;
@@ -15,6 +16,7 @@ public class TableStats {
 	public TableStats(SeleniumDriver driver) {
 		this.driver=driver;
 		this.leagueTable=new PremierLeague();
+		//AjaxElementLocatorFactory facctory= new AjaxElementLocatorFactory(driver.getDriver(), 0);
 		PageFactory.initElements(driver.getDriver(), leagueTable);
 	}
 

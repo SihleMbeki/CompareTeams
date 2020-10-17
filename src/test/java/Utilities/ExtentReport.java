@@ -13,7 +13,6 @@ import PlayAround.HollywoodBet.testing.Base;
 public class ExtentReport {
 	public static ExtentHtmlReporter htmlReporter;
 	private static ExtentReports reports;
-	public static ExtentTest test;
 
 	public static void createExtentReports() {
 		htmlReporter = new ExtentHtmlReporter(foldername() + getFileName());
@@ -25,8 +24,7 @@ public class ExtentReport {
 	}
 
 	public static ExtentTest createTest(String testName) {
-		test = reports.createTest(testName);
-		return test;
+		return reports.createTest(testName);
 	}
 
 	public static void closeReport() {

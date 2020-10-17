@@ -7,13 +7,16 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+import com.aventstack.extentreports.ExtentTest;
+
 import Utilities.ExtentReport;
 import Utilities.SeleniumDriver;
 
 public class Base {
 	public static String directory;
 	public static String foldername;
-	SeleniumDriver driver;
+	protected SeleniumDriver driver;
+	public static ExtentTest test;
 
 	public Base() {
 		

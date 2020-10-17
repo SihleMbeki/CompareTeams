@@ -1,3 +1,4 @@
 Pages\TableStats.class
 Utilities\ExtentReport.class
+Utilities\Listener.class
 PageObject\PremierLeague.class

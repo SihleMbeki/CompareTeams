@@ -16,9 +16,9 @@ import Utilities.ExtentReport;
 public class AppTest extends Base {
 	
 	@BeforeMethod
-	public void testSetup(Method test) {
+	public void testSetup(Method testMethod) {
 		System.out.println("Test setup");
-		ExtentReport.createTest(test.getName());
+		test= ExtentReport.createTest(testMethod.getName());
 	}
 
 	@Test(dataProvider = "getTeams")
