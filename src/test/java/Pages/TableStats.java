@@ -33,11 +33,6 @@ public class TableStats {
 		//System.out.println("Rank:"+leagueTable.table.findElement(By.xpath(leagueTable.glDeff(team))).getText());
 		test.log(Status.PASS, goalDff);
 		test.log(Status.PASS, Rank);
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 	}
 }
