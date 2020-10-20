@@ -2,16 +2,46 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-11T00:40:28 CAT" name="Default suite" finished-at="2020-10-11T00:40:28 CAT" duration-ms="77">
+  <suite started-at="2020-10-20T21:51:23 CAT" name="Default suite" finished-at="2020-10-20T21:53:28 CAT" duration-ms="125072">
     <groups>
     </groups>
-    <test started-at="2020-10-11T00:40:28 CAT" name="Default test" finished-at="2020-10-11T00:40:28 CAT" duration-ms="77">
-      <class name="PlayAround.HollywoodBet.App">
-        <test-method signature="test()[pri:0, instance:PlayAround.HollywoodBet.App@68e5eea7]" started-at="2020-10-11T00:40:28 CAT" name="test" finished-at="2020-10-11T00:40:28 CAT" duration-ms="18" status="PASS">
+    <test started-at="2020-10-20T21:51:23 CAT" name="Default test" finished-at="2020-10-20T21:53:28 CAT" duration-ms="125072">
+      <class name="PlayAround.HollywoodBet.testing.AppTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@3541cb24]" started-at="2020-10-20T21:51:18 CAT" name="setup" finished-at="2020-10-20T21:51:23 CAT" duration-ms="4701" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- PlayAround.HollywoodBet.App -->
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@3541cb24]" started-at="2020-10-20T21:51:23 CAT" name="testSetup" finished-at="2020-10-20T21:51:23 CAT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void PlayAround.HollywoodBet.testing.AppTest.testTrial(java.util.List)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testTrial(java.util.List)[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@3541cb24]" started-at="2020-10-20T21:51:23 CAT" name="testTrial" data-provider="getTeams" finished-at="2020-10-20T21:53:28 CAT" duration-ms="125035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[{League=England: Premier League (m), Away=Burnley, Home=Liverpool, Country=(ENGLAND)}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTrial -->
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@3541cb24]" started-at="2020-10-20T21:53:28 CAT" name="testTearDown" finished-at="2020-10-20T21:53:28 CAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@3541cb24]" started-at="2020-10-20T21:53:28 CAT" name="teardown" finished-at="2020-10-20T21:53:28 CAT" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- PlayAround.HollywoodBet.testing.AppTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -128,7 +128,29 @@ public class SeleniumDriver {
 
 	public boolean scrollToElement(WebElement element) {
 		try {
-			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();",element);
+			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
+			return true;
+		} catch (Exception e) {
+			error = e.getMessage();
+			return false;
+		}
+	}
+
+	public boolean waitForEelementByXpath(String element) {
+		try {
+			WebDriverWait wait = new WebDriverWait(driver, 35);
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(element)));
+			return true;
+		} catch (Exception e) {
+			error = e.getMessage();
+			return false;
+		}
+	}
+	
+	public boolean waitForEelementToBeClickableByXpath(String element) {
+		try {
+			WebDriverWait wait = new WebDriverWait(driver, 35);
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath(element)));
 			return true;
 		} catch (Exception e) {
 			error = e.getMessage();
