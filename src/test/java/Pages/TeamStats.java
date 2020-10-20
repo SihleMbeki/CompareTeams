@@ -1,16 +1,17 @@
 package Pages;
 
-import org.openqa.selenium.By;
+import java.io.IOException;
+
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Action;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 
 import PageObject.Stats;
+import PlayAround.HollywoodBet.testing.Base;
 import Utilities.SeleniumDriver;
 
 public class TeamStats {
@@ -47,6 +48,12 @@ public class TeamStats {
 					Assert.fail("Failed to wait for trail table");
 			}
 
+		}
+		try {
+			test.pass("Screenshot",MediaEntityBuilder.createScreenCaptureFromPath(driver.takeScreenShot()).build());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 
 		if (!driver.scrollToElement(statistics.trailingHome)) {

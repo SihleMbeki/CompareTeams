@@ -102,7 +102,7 @@ public class SeleniumDriver {
 		}
 	}
 
-	public boolean takeScreenshot(WebElement element) {
+	public boolean takeScreenshot() {
 		try {
 			Date d = new Date();
 			String fileName = d.toString().replace(":", "_").replace(" ", "_") + ".jpg";
@@ -166,6 +166,19 @@ public class SeleniumDriver {
 		} catch (Exception e) {
 			error = e.getMessage();
 			return false;
+		}
+	}
+	
+	public String takeScreenShot() {
+		try {
+			Date date=new Date();
+			String fileName=Base.foldername+"\\"+date.toString().replace(":", "_").replace(" ", "")+".jpg";
+			File screenshot=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(screenshot, new File(fileName));
+			return fileName;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return null;
 		}
 	}
 

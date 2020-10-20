@@ -18,11 +18,11 @@ import Pages.TeamStats;
 import Utilities.ExtentReport;
 
 public class AppTest extends Base {
-	
+
 	@BeforeMethod
 	public void testSetup(Method testMethod) {
 		System.out.println("Test setup");
-		test= ExtentReport.createTest(testMethod.getName());
+		test = ExtentReport.createTest(testMethod.getName());
 	}
 
 	@Test(dataProvider = "getTeams")
