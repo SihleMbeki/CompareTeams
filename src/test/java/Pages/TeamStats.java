@@ -74,7 +74,12 @@ public class TeamStats {
 				break;
 			}
 		}
-
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		if (game) {
 			statistics.trailingHome.click();
 		} else {
@@ -88,10 +93,12 @@ public class TeamStats {
 			e.printStackTrace();
 		}
 		if (game) {
+			String testsample=statistics.avgLeadingHome.getText();
 			test.log(Status.PASS, "Average minutes leading - " + statistics.avgLeadingHome.getText());
 			test.log(Status.PASS, "Average minutes trailing - " + statistics.avgTrailingHome.getText());
 			test.log(Status.PASS, "Team scored first - " + statistics.avgScoredFirstHome.getText());
 		} else {
+			String testsample= statistics.avgLeadingAway.getText();
 			test.log(Status.PASS, "Average minutes leading - " + statistics.avgLeadingAway.getText());
 			test.log(Status.PASS, "Average minutes trailing - " + statistics.avgTrailingAway.getText());
 			test.log(Status.PASS, "Team scored first - " + statistics.avgScoredFirstAway.getText());

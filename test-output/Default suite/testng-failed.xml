@@ -5,7 +5,7 @@
     <classes>
       <class name="PlayAround.HollywoodBet.testing.AppTest">
         <methods>
-          <include name="testTrial" invocation-numbers="0"/>
+          <include name="testTrial"/>
           <include name="testTearDown"/>
           <include name="setup"/>
           <include name="teardown"/>

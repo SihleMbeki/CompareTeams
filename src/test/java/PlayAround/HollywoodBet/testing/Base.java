@@ -1,14 +1,13 @@
 package PlayAround.HollywoodBet.testing;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
+
 
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.aventstack.extentreports.ExtentTest;
 
+import Utilities.ExcelReader;
 import Utilities.ExtentReport;
 import Utilities.SeleniumDriver;
 
@@ -17,10 +16,8 @@ public class Base {
 	public static String foldername;
 	protected SeleniumDriver driver;
 	public static ExtentTest test;
-
-	public Base() {
-		
-	}
+	public static ExcelReader excel = new ExcelReader(
+			System.getProperty("user.dir") + "\\src\\test\\java\\Data\\testdata.xlsx");
 
 	@BeforeSuite
 	public void setup() {
@@ -34,7 +31,6 @@ public class Base {
 	public void teardown() {
 		ExtentReport.closeReport();
 		driver.closeDriver();
-		System.out.println("Tear down");
-		
+		System.out.println("Tear down");	
 	}
 }
