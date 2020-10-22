@@ -2,16 +2,16 @@
 <testng-results total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-21T20:59:19Z" name="Functional Suite" finished-at="2020-10-21T20:59:19Z" duration-ms="24">
+  <suite started-at="2020-10-21T21:21:44Z" name="Functional Suite" finished-at="2020-10-21T21:21:44Z" duration-ms="23">
     <groups>
     </groups>
-    <test started-at="2020-10-21T20:59:19Z" name="Login Test" finished-at="2020-10-21T20:59:19Z" duration-ms="24">
+    <test started-at="2020-10-21T21:21:44Z" name="Login Test" finished-at="2020-10-21T21:21:44Z" duration-ms="23">
       <class name="PlayAround.HollywoodBet.testing.AppTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@6c2a7c73]" started-at="2020-10-21T22:59:14Z" name="setup" finished-at="2020-10-21T22:59:19Z" duration-ms="5823" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@6c2a7c73]" started-at="2020-10-21T23:21:38Z" name="setup" finished-at="2020-10-21T23:21:44Z" duration-ms="5831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testTrial(java.util.Hashtable)[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@6c2a7c73]" started-at="2020-10-21T22:59:19Z" name="testTrial" data-provider="dp" finished-at="2020-10-21T22:59:19Z" duration-ms="0" status="SKIP">
+        <test-method signature="testTrial(java.util.Hashtable)[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@6c2a7c73]" started-at="2020-10-21T23:21:44Z" name="testTrial" data-provider="dp" finished-at="2020-10-21T23:21:44Z" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -52,7 +52,7 @@ DataProvider should be static: public java.lang.Object[][] Utilities.TestUtil.ge
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTrial -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@6c2a7c73]" started-at="2020-10-21T22:59:19Z" name="teardown" finished-at="2020-10-21T22:59:20Z" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:PlayAround.HollywoodBet.testing.AppTest@6c2a7c73]" started-at="2020-10-21T23:21:44Z" name="teardown" finished-at="2020-10-21T23:21:44Z" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

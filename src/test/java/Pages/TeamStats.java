@@ -47,8 +47,8 @@ public class TeamStats {
 				if (s > 4)
 					Assert.fail("Failed to wait for trail table");
 			}
-
 		}
+		
 		try {
 			test.pass("Screenshot",MediaEntityBuilder.createScreenCaptureFromPath(driver.takeScreenShot()).build());
 		} catch (IOException e) {
@@ -92,6 +92,7 @@ public class TeamStats {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 		if (game) {
 			String testsample=statistics.avgLeadingHome.getText();
 			test.log(Status.PASS, "Average minutes leading - " + statistics.avgLeadingHome.getText());
